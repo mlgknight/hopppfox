@@ -2,7 +2,10 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: 'Rubik', sans-serif;
-    background-color: #fbf9ed;
+    background-image: url("pexels-annamw-1738675.jpg");
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    background-blend-mode: lighten;
     color: #432000;
     user-select: none;
 }
@@ -17,6 +20,8 @@ html, body {
 img {
     width: 150px;
     margin: 0 auto;
+    border: 2px solid #fda63d;
+    border-radius: 60px;
 }
 
 input {
@@ -59,13 +64,14 @@ ul li {
     font-size: 20px;
     background-color: #FFFDF8;
     padding: 15px;
-    border-radius: 8px;
+    border-radius: 35px;
+    border: 3px solid #fda63d;
     flex-grow: 1;
     text-align: center;
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2)
 }
 
 ul li:hover {
-    background-color: #607798;
+    background-color: #fda63d;
     cursor: pointer;
 }
